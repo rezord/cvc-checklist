@@ -1,0 +1,5 @@
+﻿<div ng-repeat="item in checklistValue">
+    <md-checkbox  ng-checked="exists(item, checklistSelected)" ng-click="toggle(item, checklistSelected)">
+        {{item.title}}
+    </md-checkbox>
+</div>
